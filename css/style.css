@@ -131,3 +131,82 @@ section h1{
     border-radius: 10px;
 }
 
+.product-card h3{
+    margin: 15px 0 10px 0;
+    font-size: 1.2rem;
+    color: #1e1e2f;
+}
+
+.product-card p{
+    font-size: 0.95rem;
+    color: #555;
+    text-align: justify;
+}
+
+/* Virtual Section */
+.virtual {
+    padding: 60px 20px;
+    background: linear-gradient(135deg,#ffffff, #9fabc8);
+    text-align: center;
+}
+
+.virtual h1{
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #555;
+    position: relative;
+    display: inline-block;
+
+}
+
+.virtual h1::after{
+    content: "";
+    height: 3px;
+    width: 50%;
+    background-color: #888686;
+    position: absolute;
+    bottom: -10px;
+    left: 25%;
+}
+
+.virtual div iframe{
+    width: 80%;
+    max-width: 800px;
+    height: 400px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.virtual div iframe:hover{
+    transform: scale(1.02);
+}
+
+.footer{
+    height: 200px;
+    background-color: #000000 ;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-card{
+    padding: 70px;
+}
+
+.footer-card i{
+    font-size: 20px;
+    padding: 3px;
+}
+
+.footer-card img{
+    
+}
+
+.footer .footer-card img{
+    width: 100px;
+    height: 100px;
+}
+
+
